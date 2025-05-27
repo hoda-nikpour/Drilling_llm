@@ -1,0 +1,33 @@
+# Python
+*.pyc
+*.pyo
+__pycache__
+*.pyd
+*.pdb
+*.log
+
+# Virtual Environment
+venv/
+env/
+
+# Dependency directories
+node_modules/
+*.egg-info/
+*.dist-info/
+
+# FastAPI specific
+*.db
+*.sqlite3
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+
+# dotenv file (if used for environment variables)
+.env
+
+# Model files (large files should not be versioned)
+*.safetensors
+*.bin
+*.pt
+*.json
